@@ -1,0 +1,35 @@
+.laptop {
+    visibility: visible;
+}
+
+.laptop ul {
+    color: white;
+    background: #000000; 
+    color: #F7F7F7; 
+    text-align: center; 
+    margin: 0; 
+}
+
+.laptop ul li {
+    display: inline-block;
+    padding: 0px 30px;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    transition: 1s;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+
+.laptop ul li .login{
+    background: #002672; 
+    padding: 5px 10px;
+    width: 80px;
+    text-align: center;
+}
+
+.laptop ul li .login:hover {
+    background: #FF2672; 
+    color: #f7f7f7;
+}

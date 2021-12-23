@@ -1,0 +1,19 @@
+.Homepage {
+    width: 100%;
+    height: 60px;
+    background-color: aquamarine;
+}
+
+.Homepage .logo {
+    padding: 0px 0px 0px 5%;
+    height: 60px;
+    float: left;
+}
+
+.Homepage .title {
+    text-align: center;
+    font-size: 40px;
+    height: 60px;
+    margin: 0% 0px 0px 0px;
+    margin-bottom: 0px;
+}
