@@ -3,6 +3,8 @@ import classes from './Homepage.module.css';
 import logo from '../image/logo.png';
 import Navbar from './Navbar/Navbar';
 import SearchArea from './SearchArea/SearchArea';
+import StoreList from './StoreList/StoreList';
+import Contact from './Contact/Contact';
 
 class Homepage extends Component {
     render() {
@@ -13,7 +15,8 @@ class Homepage extends Component {
 
                 <Navbar />
                 <SearchArea />
-
+                <StoreList />
+                <Contact />
             </div>
 
         );

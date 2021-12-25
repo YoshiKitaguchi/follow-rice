@@ -1,0 +1,12 @@
+.box {
+    height: 200px;
+    background-color: black;
+}
+
+.box ul {
+    margin: 0 0 0 0;
+}
+
+.text {
+    color: white;
+}

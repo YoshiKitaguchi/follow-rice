@@ -1,0 +1,7 @@
+
+0. git clone or donwload the follow-rice repository
+1. download nodejs from https://nodejs.org/ja/
+2. npm install yarn
+3. yarn install
+4. yarn start # to start the app
+
