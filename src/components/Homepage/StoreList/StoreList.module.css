@@ -1,11 +1,13 @@
 .box {
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
+    height:500px;
 }
 
 .column {
+    background-color: beige;
     float: left;
     width: 32%;
-    height: 50%;
+    height: 400px;
     padding: 5px;
 }
 
@@ -16,6 +18,15 @@
 }
 
 .column img {
-    width: 100%;
+    padding:5% 0 0 5%;
+    width: 90%;
     height: 200px;
+}
+
+.column div {
+    padding:0 0 0 5%;
+    margin:5% 0 0 2.5%;
+    width: 90%;
+    /* background-color: burlywood; */
+    height: 38%;
 }

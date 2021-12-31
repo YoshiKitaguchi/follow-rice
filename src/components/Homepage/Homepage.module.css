@@ -1,7 +1,7 @@
 .Homepage {
     width: 100%;
     height: 60px;
-    background-color: rgb(176, 127, 255);
+    /* background-color: rgb(176, 127, 255); */
 }
 
 .Homepage .logo {
@@ -10,10 +10,45 @@
     float: left;
 }
 
+
+.Homepage .titlebox {
+    background-image: url(../image/title-image.jpg);
+    background-size: cover;
+    height:400px;
+}
+
 .Homepage .title {
     text-align: center;
-    font-size: 40px;
+    font-size: 100px;
+    color:white;
+    font-weight: bold;
     height: 60px;
-    margin: 0% 0px 0px 0px;
+    padding-top: 100px;
     margin-bottom: 0px;
+}
+
+.Homepage .contentarea {
+    /* background-color: aquamarine; */
+    padding-top: 5%;
+    /* height:100%; */
+}
+
+.Homepage .contentbox {
+    margin-left: 15%;
+    /* background-color: azure; */
+    width: 70%;
+    height:100%;
+}
+
+h2 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 50px 0 20px; 
+ } 
+ 
+ h2 span { 
+    background:#fff; 
+    padding:0 10px; 
 }

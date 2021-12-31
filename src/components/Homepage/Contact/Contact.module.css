@@ -1,12 +1,25 @@
 .box {
     height: 200px;
-    background-color: black;
+    /* background-color:cornsilk; */
 }
 
-.box ul {
-    margin: 0 0 0 0;
+hr {
+    border: 2px solid red;
 }
 
-.text {
-    color: white;
+.icon {
+    display: inline;
+    font-size: 50px;
+    margin: 2% 0 0 15%;
+}
+
+
+h5 {
+    margin-left: 45%;
+}
+
+.iconarea {
+    /* background-color: cyan; */
+    margin-left: 15%;
+    width: 70%;
 }
