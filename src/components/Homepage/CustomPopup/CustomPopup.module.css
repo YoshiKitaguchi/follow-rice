@@ -14,16 +14,19 @@
     padding: 20px;
     background: #fff;
     border-radius: 5px;
-    width: 30%;
+    width: 70%;
+    height: 80%;
     position: relative;
     transition: all 5s ease-in-out;
 }
 
 .popup h2 {
+    text-align: center;
     margin-top: 0;
-    color: #333;
+    color: #333; 
     font-family: Tahoma, Arial, sans-serif;
 }
+
 .popup .close {
     position: absolute;
     top: 20px;

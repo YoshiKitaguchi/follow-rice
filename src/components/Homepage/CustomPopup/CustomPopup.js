@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import popupStyles from "./CustomPopup.module.css";
 import PropTypes from "prop-types";
+import ImageGallery from "../ImageGallery/ImageGallery";
+
+
 const CustomPopup = (props) => {
     const [show, setShow] = useState(false);
 
@@ -23,9 +26,8 @@ const CustomPopup = (props) => {
         >
         <div className={popupStyles.popup}>
             <h2>{props.title}</h2>
-            <span className={popupStyles.close} onClick={closeHandler}>
-            &times;
-            </span>
+            <span className={popupStyles.close} onClick={closeHandler}> &times; </span>
+            <ImageGallery/>
             <div className={popupStyles.content}>{props.children}</div>
         </div>
         </div>

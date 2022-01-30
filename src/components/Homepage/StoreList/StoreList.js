@@ -23,17 +23,15 @@ const useStoreList = () => {
                 <CustomPopup
                     onClose={popupCloseHandler}
                     show={visibility}
-                    title="Hello Jeetendra"
+                    title="何て名前だったっけ？"
                 >
-                    <h1>Hello This is Popup Content Area</h1>
-                    <h2>This is my lorem ipsum text here!</h2>
+                    <h2>【高円寺駅 南口徒歩30秒】【キャンペーン中】</h2>
+                    <h2> 夜景が楽しめるオシャレなbar </h2>
+                    <h2> 東京都杉並区高円寺南４-２７-１０ タイガーデン４階 </h2>
+                    <h2> ゆったりとした空間が広がりその中でカラオケや気さくな店員さんとゆっくり飲めるbarです。</h2>
+                    <h2> デートやしっぽり飲みたい人にはとてもぴったりでカラオケが無料でついてるのでさまざまな楽しみ方でたのしめます。</h2>
+                    <h2> お一人様でも大歓迎 </h2>
                 </CustomPopup>
-                {/* <div className={classes.column} >
-                    <img src={b2} alt='b2' />
-                </div>
-                <div className={classes.column} >
-                    <img src={b3} alt='b3' />
-                </div>*/}
             </div>
         </div>
     );

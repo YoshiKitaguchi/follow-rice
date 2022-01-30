@@ -40,7 +40,7 @@
     height:100%;
 }
 
-h2 {
+.subtitle {
     width: 100%; 
     text-align: center; 
     border-bottom: 1px solid #000; 

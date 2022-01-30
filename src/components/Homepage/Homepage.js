@@ -27,10 +27,10 @@ class Homepage extends Component {
 
                 <div className={classes.contentarea}>
                     <div className={classes.contentbox}>
-                        <h2><span>ウェブサイト紹介</span></h2>
+                        <h2 className={classes.subtitle}><span>ウェブサイト紹介</span></h2>
                         <br/>
                         <WebsiteIntro/>
-                        <h2><span>店舗一覧</span></h2>
+                        <h2 className={classes.subtitle}><span>店舗一覧</span></h2>
                         <br/>
                         <SearchArea />
                         <StoreList />
