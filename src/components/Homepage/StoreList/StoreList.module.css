@@ -30,3 +30,7 @@
     /* background-color: burlywood; */
     height: 38%;
 }
+
+.text {
+    white-space: pre-line;
+}
