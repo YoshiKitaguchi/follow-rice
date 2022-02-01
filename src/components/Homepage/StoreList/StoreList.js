@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import classes from './StoreList.module.css';
-import b1 from '../../image/bento1.jpg';
-// import b2 from '../../image/bento2.jpg';
-// import b3 from '../../image/bento3.jpg';
+import s1_1 from '../../image/s1_1.jpg';
 import CustomPopup from '../CustomPopup/CustomPopup';
 // import  Text  from "react-native";
 
@@ -17,7 +15,7 @@ const useStoreList = () => {
         <div className={classes.box}>
             <div className={classes.row}>
                 <div className={classes.column} onClick={(e) => setVisibility(!visibility)}>
-                    <img className={classes.image} src={b1} alt='b1' />
+                    <img className={classes.image} src={s1_1} alt='s1_1' />
                     <div>詳細</div>
                 </div>
 
