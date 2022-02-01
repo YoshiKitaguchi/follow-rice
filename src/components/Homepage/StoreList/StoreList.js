@@ -16,7 +16,7 @@ const useStoreList = () => {
             <div className={classes.row}>
                 <div className={classes.column} onClick={(e) => setVisibility(!visibility)}>
                     <img className={classes.image} src={s1_1} alt='s1_1' />
-                    <div>詳細</div>
+                    <div>Bar Laugh Tale</div>
                 </div>
 
                 <CustomPopup
